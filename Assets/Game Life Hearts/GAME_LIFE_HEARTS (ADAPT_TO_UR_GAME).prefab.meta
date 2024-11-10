@@ -1,0 +1,248 @@
+- !<AssetImportMetadata/123415a1-3699-4353-b9cd-9e2dad8641c5>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> e5555e59-e74c-45d2-8d3c-0fd565572bb9
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> e5555e59-e74c-45d2-8d3c-0fd565572bb9
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 663a6e07-087c-47e8-b427-2345b1aaa474
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/6943c8f2-cca0-4717-b07c-55b68d04c7b0>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/1b9cdb0b-11b7-490b-8853-84bf61f98843>
+  PrefabRemaps:
+    []
+  Name: 6_GameLife
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -16.713505, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 5.307068, y: 5.307068, z: 5.307068}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5db638c5-3dc7-48f8-b9df-c809ae424fd0
+- !<SceneObject/351d68ef-88f7-4ac9-863c-056d880ea386>
+  PrefabRemaps:
+    []
+  Name: 1_GameLife
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 10.792727, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 5.307068, y: 5.307068, z: 5.307068}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9f74628f-3c78-4be8-85c2-140f2aee6dcf
+- !<SceneObject/4551eb71-0f27-422b-bba3-cf4eb427392c>
+  PrefabRemaps:
+    []
+  Name: 3_GameLife
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.174090, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 5.307068, y: 5.307068, z: 5.307068}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> af8d01d3-6d36-433f-88b4-c8bed624a876
+- !<Image/545a6a18-e8cf-4a06-b1e2-44a9579aae5f>
+  PrefabRemaps:
+    []
+  Name: Image 2
+  Enabled: true
+  RenderOrder: 3
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 89ca6dd9-1e48-4723-8072-91f7f784722a
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+- !<Image/5db638c5-3dc7-48f8-b9df-c809ae424fd0>
+  PrefabRemaps:
+    []
+  Name: Image 2
+  Enabled: true
+  RenderOrder: 5
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d8ceb091-ae39-4707-b654-5ab51d8c30e1
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+- !<ObjectPrefabAssetData/663a6e07-087c-47e8-b427-2345b1aaa474>
+  SourceRemaps:
+    - 084222d5-0c4c-4af3-8456-4299a9126bd7: 351d68ef-88f7-4ac9-863c-056d880ea386
+    - 0ed8ddbc-eaf1-4774-9330-90697ff02d4f: 1b9cdb0b-11b7-490b-8853-84bf61f98843
+    - 15c2a080-4e40-47bb-8bd7-85059eb10960: c9b0978a-0844-4a73-8ec0-29f207db4c8b
+    - 2ba27941-6be4-49d4-91d0-8822433a2f19: af8d01d3-6d36-433f-88b4-c8bed624a876
+    - 319119b7-cb46-4fdd-874a-43be9665e36e: ca50d59c-2940-432f-be27-cc575e1ac819
+    - 39e95967-16e6-499d-8a24-3346836dc53c: 5db638c5-3dc7-48f8-b9df-c809ae424fd0
+    - 548d8057-807e-4049-9f80-fd1f590fee90: 7f7ae856-e161-486a-83b7-651900f5bf76
+    - 6106cd30-bc7f-4929-8a16-4f8ccb59e785: 545a6a18-e8cf-4a06-b1e2-44a9579aae5f
+    - 7c1f698e-e39a-45de-9569-a3f3b925d02b: ef9b69c8-daad-4fcb-b02c-ad8148da4785
+    - 8580b093-91e5-4acc-be5d-4f08cbde89bf: 9f74628f-3c78-4be8-85c2-140f2aee6dcf
+    - 9c87a57c-f29e-424a-a723-e4a39849a2af: ff28ca07-48c1-4c57-8fc3-20046fb4cb97
+    - a921dc0c-78b8-4f38-b31e-cd092d80ac81: 7e01350c-cf44-4bda-b1a1-7f41b72a1ce1
+    - d6a4893c-5edb-49c3-bc04-c4faef58a56d: 4551eb71-0f27-422b-bba3-cf4eb427392c
+  SourceState: !<own> 8af791c8-81cb-4380-a8ac-0ac4dcc7dbe2
+- !<SceneObject/7e01350c-cf44-4bda-b1a1-7f41b72a1ce1>
+  PrefabRemaps:
+    []
+  Name: 4_GameLife
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -5.681195, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 5.307068, y: 5.307068, z: 5.307068}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 545a6a18-e8cf-4a06-b1e2-44a9579aae5f
+- !<SceneObject/7f7ae856-e161-486a-83b7-651900f5bf76>
+  PrefabRemaps:
+    []
+  Name: 2_GameLife
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 5.299213, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 5.307068, y: 5.307068, z: 5.307068}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ff28ca07-48c1-4c57-8fc3-20046fb4cb97
+- !<ObjectPrefab/8af791c8-81cb-4380-a8ac-0ac4dcc7dbe2>
+  PackagePath: GAME_LIFE_HEARTS (ADAPT_TO_UR_GAME)
+  objects:
+    - !<own> c9b0978a-0844-4a73-8ec0-29f207db4c8b
+  LazyLoading: false
+  RetainAssets: true
+- !<Image/9f74628f-3c78-4be8-85c2-140f2aee6dcf>
+  PrefabRemaps:
+    []
+  Name: Image 2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 52b5bcf3-0f9c-496f-aaf8-9299cbed85a9
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+- !<Image/af8d01d3-6d36-433f-88b4-c8bed624a876>
+  PrefabRemaps:
+    []
+  Name: Image 2
+  Enabled: true
+  RenderOrder: 2
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 386b0174-7783-4ec2-b645-6a8bfb400946
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+- !<SceneObject/c9b0978a-0844-4a73-8ec0-29f207db4c8b>
+  PrefabRemaps:
+    []
+  Name: GAME_LIFE_HEARTS (ADAPT_TO_UR_GAME)
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 2.358683, y: 20.416224, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.800000, y: 0.800000, z: 0.800000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 351d68ef-88f7-4ac9-863c-056d880ea386
+    - !<own> 7f7ae856-e161-486a-83b7-651900f5bf76
+    - !<own> 4551eb71-0f27-422b-bba3-cf4eb427392c
+    - !<own> 7e01350c-cf44-4bda-b1a1-7f41b72a1ce1
+    - !<own> ef9b69c8-daad-4fcb-b02c-ad8148da4785
+    - !<own> 1b9cdb0b-11b7-490b-8853-84bf61f98843
+  Components:
+    []
+- !<Image/ca50d59c-2940-432f-be27-cc575e1ac819>
+  PrefabRemaps:
+    []
+  Name: Image 2
+  Enabled: true
+  RenderOrder: 4
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9ecd25e9-bcfd-4002-90ca-b51200877343
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+- !<SceneObject/ef9b69c8-daad-4fcb-b02c-ad8148da4785>
+  PrefabRemaps:
+    []
+  Name: 5_GameLife
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -11.170731, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 5.307068, y: 5.307068, z: 5.307068}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ca50d59c-2940-432f-be27-cc575e1ac819
+- !<Image/ff28ca07-48c1-4c57-8fc3-20046fb4cb97>
+  PrefabRemaps:
+    []
+  Name: Image 2
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5ca5b110-0532-4e81-b96b-d1bf912baa3d
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}

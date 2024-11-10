@@ -1,0 +1,218 @@
+- !<ObjectPrefab/e5555e59-e74c-45d2-8d3c-0fd565572bb9>
+  PackagePath: GAME_LIFE_HEARTS (ADAPT_TO_UR_GAME)
+  objects:
+    - !<own> 15c2a080-4e40-47bb-8bd7-85059eb10960
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/084222d5-0c4c-4af3-8456-4299a9126bd7>
+  PrefabRemaps:
+    []
+  Name: 1_GameLife
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 10.792727, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 5.307068, y: 5.307068, z: 5.307068}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8580b093-91e5-4acc-be5d-4f08cbde89bf
+- !<SceneObject/0ed8ddbc-eaf1-4774-9330-90697ff02d4f>
+  PrefabRemaps:
+    []
+  Name: 6_GameLife
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -16.713505, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 5.307068, y: 5.307068, z: 5.307068}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 39e95967-16e6-499d-8a24-3346836dc53c
+- !<SceneObject/15c2a080-4e40-47bb-8bd7-85059eb10960>
+  PrefabRemaps:
+    []
+  Name: GAME_LIFE_HEARTS (ADAPT_TO_UR_GAME)
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 2.358683, y: 20.416224, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.800000, y: 0.800000, z: 0.800000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 084222d5-0c4c-4af3-8456-4299a9126bd7
+    - !<own> 548d8057-807e-4049-9f80-fd1f590fee90
+    - !<own> d6a4893c-5edb-49c3-bc04-c4faef58a56d
+    - !<own> a921dc0c-78b8-4f38-b31e-cd092d80ac81
+    - !<own> 7c1f698e-e39a-45de-9569-a3f3b925d02b
+    - !<own> 0ed8ddbc-eaf1-4774-9330-90697ff02d4f
+  Components:
+    []
+- !<Image/2ba27941-6be4-49d4-91d0-8822433a2f19>
+  PrefabRemaps:
+    []
+  Name: Image 2
+  Enabled: true
+  RenderOrder: 2
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 386b0174-7783-4ec2-b645-6a8bfb400946
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+- !<Image/319119b7-cb46-4fdd-874a-43be9665e36e>
+  PrefabRemaps:
+    []
+  Name: Image 2
+  Enabled: true
+  RenderOrder: 4
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9ecd25e9-bcfd-4002-90ca-b51200877343
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+- !<Image/39e95967-16e6-499d-8a24-3346836dc53c>
+  PrefabRemaps:
+    []
+  Name: Image 2
+  Enabled: true
+  RenderOrder: 5
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d8ceb091-ae39-4707-b654-5ab51d8c30e1
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+- !<SceneObject/548d8057-807e-4049-9f80-fd1f590fee90>
+  PrefabRemaps:
+    []
+  Name: 2_GameLife
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 5.299213, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 5.307068, y: 5.307068, z: 5.307068}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9c87a57c-f29e-424a-a723-e4a39849a2af
+- !<Image/6106cd30-bc7f-4929-8a16-4f8ccb59e785>
+  PrefabRemaps:
+    []
+  Name: Image 2
+  Enabled: true
+  RenderOrder: 3
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 89ca6dd9-1e48-4723-8072-91f7f784722a
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+- !<SceneObject/7c1f698e-e39a-45de-9569-a3f3b925d02b>
+  PrefabRemaps:
+    []
+  Name: 5_GameLife
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -11.170731, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 5.307068, y: 5.307068, z: 5.307068}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 319119b7-cb46-4fdd-874a-43be9665e36e
+- !<Image/8580b093-91e5-4acc-be5d-4f08cbde89bf>
+  PrefabRemaps:
+    []
+  Name: Image 2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 52b5bcf3-0f9c-496f-aaf8-9299cbed85a9
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+- !<Image/9c87a57c-f29e-424a-a723-e4a39849a2af>
+  PrefabRemaps:
+    []
+  Name: Image 2
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5ca5b110-0532-4e81-b96b-d1bf912baa3d
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+- !<SceneObject/a921dc0c-78b8-4f38-b31e-cd092d80ac81>
+  PrefabRemaps:
+    []
+  Name: 4_GameLife
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -5.681195, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 5.307068, y: 5.307068, z: 5.307068}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6106cd30-bc7f-4929-8a16-4f8ccb59e785
+- !<SceneObject/d6a4893c-5edb-49c3-bc04-c4faef58a56d>
+  PrefabRemaps:
+    []
+  Name: 3_GameLife
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.174090, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 5.307068, y: 5.307068, z: 5.307068}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2ba27941-6be4-49d4-91d0-8822433a2f19

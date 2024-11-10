@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/e0dd3e90-cd30-4a19-913e-a6187c6f2e08>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> ec4afb81-3bae-48fa-9322-6f61433d6719
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> ec4afb81-3bae-48fa-9322-6f61433d6719
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 3622ff0b-e87f-43be-9c38-4689bf8aa147
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/fa8f3ed1-4fd0-4240-86f3-4f159d41f567>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/3622ff0b-e87f-43be-9c38-4689bf8aa147>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    canTouch: false
+    saveDoneBox: false
+    saveText: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - saveDoneBox: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      saveText: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      canTouch: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject saveDoneBox {"hint":"SaveDoneBox that will be interacted with"}'
+    - '// @input SceneObject saveText {"hint":"Text object to enable when pinched"}'
+    - '// @input SceneObject canTouch {"hint":"Object to disable on pinch"}'
